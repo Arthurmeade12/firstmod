@@ -1,5 +1,6 @@
 # Firstmod
 Arthurmeade12's Mod.
+Generated from https://github.com/QuiltMC/quilt-template-mod.
 
 ## License
 
