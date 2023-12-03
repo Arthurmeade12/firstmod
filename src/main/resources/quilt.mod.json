@@ -1,25 +1,23 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "me.arthurmeade12",
+		"id": "firstmod",
+		"version": "0.0.1",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "First Mod",
+			"description": "A first-time mod. Expect errors.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Arthurmeade12": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"source": "https://github.com/arthurmeade12/firstmod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/firstmod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "me.arthurmeade12.EntryPoint"
 		},
 		"depends": [
 			{
@@ -36,5 +34,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "firstmod.mixins.json"
 }

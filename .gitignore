@@ -32,3 +32,6 @@ workspace/
 
 # macOS
 *.DS_Store
+
+# Arthurmeade12
+tasks.txt
